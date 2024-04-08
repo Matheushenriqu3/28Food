@@ -1,0 +1,55 @@
+.preparo{
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #1e7387;
+}
+
+
+
+.preparo :hover{
+    opacity: 0.7;
+}
+
+.checkbox{
+    background-color: #1e7387;
+    width: 20px;
+    height: 20px;
+}
+
+h3, h4{
+    color:#1e7387;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+text{
+    color: #1d6f81;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="checkbox"]{
+    width:20px;
+    height:20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-color: #1d6f81;
+    border: solid 2px #1e7387;
+
+}
+
+.preparo img{
+    padding: 5px, 5px, 0px, 5px;
+}
+
+.imagem_receita{
+    display: flex;
+    border: solid 2px black;
+    width: 700px;
+    height: 590px;
+    justify-content: space-between;
+    float: inline-end;
+   
+
+}

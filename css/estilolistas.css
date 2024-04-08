@@ -1,0 +1,32 @@
+.lista-imagem{
+    border-radius: 30px;
+}
+
+.lista-receitas{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.receitabox{
+    font-family: 'Courier New', Courier, monospace;
+    color:  #1e7387;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+   
+}
+
+
+
+.titulo-receitas{
+    font-family: curely, sans-serif ;
+    color:  #1e7387;
+    
+    
+    
+}

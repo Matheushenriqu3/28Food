@@ -1,10 +1,12 @@
 body{
     background-color: #efb79e;
-    margin-top: 0px;
+    margin: 0px;
     padding: 0px;
-
+    
 
 }
+
+
 
 .container{
     display: flex; /* tudo que tiver dentro de container sera flexivel */
@@ -15,16 +17,12 @@ body{
    
 }
 
-div.container /*tudo que for div dentro de container*/ {
-    justify-content: space-between;
-    border: 1px solid black;
 
-    /* space between serve para respeitar os epaços e quando se der zoom as bordas não se atropelarem */
 
-}
 .logo{
     display: flex;
     justify-content: space-between;
+    
   
 
 
@@ -87,8 +85,8 @@ div.container /*tudo que for div dentro de container*/ {
     border-radius: 20px;
     border-color: #1e7387;
     border: solid #1e7387 3px;
-    background-color: #f1ccba;
-    color: whitesmoke
+    background-color: #fffaf7;
+    color: rgb(0, 0, 0)
     
 }
 
@@ -105,8 +103,135 @@ div.container /*tudo que for div dentro de container*/ {
     background-size: 17px;
 }
 
-/* fb=facebook  e ins=instagram */
+/* fb=facebook e ins=instagram */
 
     
    @import url('https://fonts.cdnfonts.com/css/curely');
+
+   .a99{
+    display: flex;
+    justify-content: center;
+   }
+
+   h1{
+    color:#1e7387; 
+    text-align: left;
+   }
+
+   /* tratamento do banner/slideshow */
+.mySlides{display: none;}
+
+.slideshow-container{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   max-width: auto;
+   
+  
+}
+
+.slide-img{
+    border-radius: 20px;
+}
+
+.numbertext{
+    color: #1e7387;
+    font-size: 18px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 10px 10px;
+    position: relative;
+    bottom: 80px;
+    width: 100px;
+    text-align: center;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.texto-receitas{
+    font-family:curely, sans-serif ;
+    color: #1e7387;
+}
+
+
+
+.active{
+    background-color: grey;
+
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+
+/* receitas box */
+
+.container-receitas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: #1e7387;
+    font-family:curely, sans-serif ;
+    text-align: center;
+    margin-bottom: 80px;
+    
+
+}
+
+.receitabox :hover{
+    opacity: 0.7;
+}
+
+.receitabox a:visited{
+    color:#1e7387;
+}
+
+a{
+    text-decoration: none;
+}
+
+.receitabox{
+    background-color: #e0a488;
+    border-radius: 20px;
+}
+
+.overlay{
+    font-family: curely, sans-serif ;
+    font-size: 24px;
+}
+/* rodape pagina */
+
+.rodape-container{
+    width: auto;
+    height: 300px;
+    background-color: #1e7387;
+
+
+}
+
+.receita-image{
+    border-radius: 100%;
+}
+
+
+@keyframes fade{
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
 
