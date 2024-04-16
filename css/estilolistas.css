@@ -26,6 +26,8 @@
 .titulo-receitas{
     font-family: curely, sans-serif ;
     color:  #1e7387;
+    display: flex;
+    justify-content: center;
     
     
     

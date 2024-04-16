@@ -7,7 +7,7 @@
     <link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
     <!-- ele ira mudar estilo da fonte -->
  
-    <title>28Food</title>
+    <title>SOBRE</title>
 </head>
 <body>
     <div class="half-image"></div>
@@ -27,88 +27,89 @@
     </div>
     <div class="pesquisa">
         <input type="text" placeholder="pesquisar">
-        <input type="submit" value="" >
+        <input type="submit" value="">
     </div>
 
-    <div class="99">
+    <div class="tit">
         <h1>99 Acabou...Nossaaaa...Agora é 28Food</h1>
     </div>
 
     <div class="fundo">
-       
-    
+        <!-- banner rotativo slides -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/salada.jpeg" style="width: 690px; height: 400px;" class="slide-img">
+                <div class="text">SALADA</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/churros2.jpeg" style="width: 690px; height: 400px;"  class="slide-img">
+                <div class="text">CHURROS</div>
+            </div>
 
-    <!-- banner rotativo slides -->
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">3 - X</div>
-            <img src="img/pao.jpeg" style="width: 690px; height: 400px;" class="slide-img">
-            <div class="text">pão caseiro</div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/coxinha1.jpeg.jpg" style="width: 690px; height: 400px;"  class="slide-img">
+                <div class="text">COXINHA</div>
+            </div>
         </div>
-    
-    
-    <div class="mySlides fade">
-        <div class="numbertext">2 - X</div>
-        <img src="img/macarrao.jpeg" style="width: 690px; height: 400px;"  class="slide-img">
-        <div class="text">macarrão</div>
     </div>
 
-    <div class="mySlides fade">
-        <div class="numbertext">1 - X</div>
-        <img src="img/coxinha1.jpeg.jpg" style="width: 690px; height: 400px;"  class="slide-img">
-        <div class="text">coxinha</div>
-    </div>
-</div>
-<br>
-</div>
+    <br>
 
-    
     <div style="text-align: center;">
         <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
+    </div>
+
+    <h1 class="texto-receitas">Receitas</h1>
+
+    <!-- vamos escrever as caixas de receitas logo embaixo -->
+
+    <div class="container-receitas">
+        <div class="receitabox">
+            <a href="receitas/coxinha.html" class="rec-texto"><img src="img/coxinha2.jpg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"> </a>
+            <div class="overlay">
+                <a href="" class="rec-texto">coxinha tremenda</a>
+            </div>
         </div>
 
-        <h1 class="texto-receitas">Receitas</h1>
-
-        <!-- vamos escrver as caixas de receitas logo embaixo -->
-
-        <div class="container-receitas">
-            <div clas="receitabox">
-                <a href="" class="rec-texto"><img src="img/coxinha2.jpg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"> </a>
-                <div class="overlay">
-                    <a href="" class="rec-texto">coxinha tremenda</a>
-                </div>
+        <div class="receitabox">
+            <a href="receitas/churros.html" class="rec-texto"><img src="img/churros2.jpeg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"> </a>
+            <div class="overlay">
+                <a href="" class="rec-texto">Churros Recheado</a>
             </div>
-
-            <div clas="receitabox">
-                <a href="" class="rec-texto"><img src="img/macarrao 3.jpg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"> </a>
-                <div class="overlay">
-                    <a href="" class="rec-texto">macarrao dos deuses</a>
-                </div>
-            </div>
-
-            <div clas="receitabox">
-                 <a href="" class="rec-texto"><img src="img/pao 2.jpg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"></a>
-                <div class="overlay">
-                 <a href="" class="rec-texto">super pão</a>
-                    
-                </div>
-            </div>
-
         </div>
 
+        <div class="receitabox">
+            <a href="receitas/sldalface.html" class="rec-texto"><img src="img/salada.jpeg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"></a>
+            <div class="overlay">
+                <a href="" class="rec-texto">salada de alface apetitosa</a>
+            </div>
+        </div>
+    </div>
+</div>
     <script src="scripts/script.js"></script>
     <!-- importando codigo java script -->
 </body>
+    <footer class="rodape">
+        <div class="rodape-container">
+            <main class="map">
+                <h1>mapa do site</h1>
+                <ul>
+                    
+                    <li><a href="doces.html">doces</li></a>
+                    <li><a href="salgados.html">salgados</li></a>
+                    <li><a href="saladas.html">saladas</li></a>
+                    <li><a href="about.html">sobre</li></a>
+                </ul>
+                <p>&COPY; todos os direitos reservados</p>
+            
+            </main>
+        </div>
+    </footer>
 
-<br>
-
-
-<footer class="rodape">
-    <div class="rodape-container">
-
-    </div>
-
-</footer>
 </html>
